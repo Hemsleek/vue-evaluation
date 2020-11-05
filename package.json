@@ -1,0 +1,38 @@
+{
+  "name": "vue-evaluation",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "style:w": "postcss src/source.scss -o src/index.css --watch",
+    "style:build": "npx tailwind build src/source.scss -o src/index.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.9.6",
+    "vue": "^3.0.2",
+    "vue-router": "^4.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.2",
+    "node-sass": "4.14.1",
+    "postcss-cli": "^8.2.0",
+    "vite": "^1.0.0-rc.8"
+  },
+  "description": "vue-evaluation",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hemsleek/vue-evaluation.git"
+  },
+  "keywords": [
+    "cart",
+    "javascript",
+    "items"
+  ],
+  "author": "asiyanbi mubashir <asiyanbimubashir@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hemsleek/vue-evaluation/issues"
+  },
+  "homepage": "https://github.com/Hemsleek/vue-evaluation#readme"
+}
