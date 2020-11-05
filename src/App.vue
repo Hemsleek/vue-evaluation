@@ -17,6 +17,6 @@ export default {
 <style lang="css" scoped>
 
   .frame{
-    @apply bg-white  max-w-sm my-2 h-full mx-auto rounded;
+    @apply bg-white  max-w-sm  max-h-screen mx-auto rounded;
   }
 </style>
